@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevInspector – Professional Edition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <button id="themeToggle" class="theme-btn">🌙</button>
+
+    <div class="container">
+
+        <header class="header">
+            <h1>DevInspector</h1>
+            <p class="sub">AI-Style Code Intelligence</p>
+        </header>
+
+        <div class="main-layout">
+
+            <!-- Code Editor -->
+            <section class="editor">
+                <h2>Code Editor</h2>
+                <textarea id="codeInput" placeholder="Paste or write your code here..."></textarea>
+
+                <div class="btn-group">
+                    <button id="copyBtn" class="btn green">📋 Copy</button>
+                    <button id="analyzeBtn" class="btn blue">⚡ Analyze</button>
+                    <button id="exportBtn" class="btn orange">⬇ Export JSON</button>
+                </div>
+            </section>
+
+            <!-- Analysis Panel -->
+            <section class="analysis">
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="label">Lines</span>
+                        <span class="value" id="lineCount">0</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="label">Functions</span>
+                        <span class="value" id="funcCount">0</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="label">Variables</span>
+                        <span class="value" id="varCount">0</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="label">Longest Line</span>
+                        <span class="value" id="longestLine">0</span>
+                    </div>
+                </div>
+
+                <h3>Complexity Score</h3>
+                <pre id="complexityBox" class="code-box"></pre>
+
+                <h3>Unused Variables</h3>
+                <pre id="unusedList" class="code-box"></pre>
+
+                <h3>Variables</h3>
+                <pre id="varList" class="code-box"></pre>
+
+                <h3>Functions</h3>
+                <pre id="funcList" class="code-box"></pre>
+
+                <h3>Syntax Highlight</h3>
+                <pre id="highlightBox" class="highlight"></pre>
+
+            </section>
+        </div>
+
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
