@@ -46,14 +46,10 @@ The layout consists of two main panels:
 
 ## 🚀 Installation
 
-Clone the repository:
 git clone https://github.com/<username>/devinspector.git
-Enter the project folder:
 cd devinspector
-Run the project by opening:
-index.html
-Or via VSCode:
-Open with Live Server
+open index.html   # macOS
+start index.html  # Windows
 
 ---
 
@@ -82,3 +78,4 @@ If you like the project, consider leaving a ⭐ star on the repository.
 ---
 
 💡 DevInspector — Simple, fast, and clean code analysis.
+
