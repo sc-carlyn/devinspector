@@ -1,5 +1,4 @@
 # 🧪 DevInspector  
-**AI-Style Code Analysis Tool — Built with Pure JavaScript**
 
 DevInspector is a modern code inspection interface designed to help developers analyze their code quickly, cleanly, and intuitively.  
 It is a lightweight, fast, and visually polished tool built entirely with **HTML + CSS + JavaScript**.
@@ -44,6 +43,12 @@ The layout consists of two main panels:
 
 ---
 
+## Screenshots
+
+![Screenshot](./screenshot.png)
+
+---
+
 ## 🚀 Installation
 
 git clone https://github.com/<username>/devinspector.git
@@ -78,4 +83,5 @@ If you like the project, consider leaving a ⭐ star on the repository.
 ---
 
 💡 DevInspector — Simple, fast, and clean code analysis.
+
 
